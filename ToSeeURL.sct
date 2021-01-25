@@ -21,7 +21,7 @@
 	<script language="JScript">
 		<![CDATA[
  
-			var r = new ActiveXObject("WScript.Shell").Run("whoami > Omar.txt");
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c whoami > Omar.txt");
  
 		]]>
 	</script>
